@@ -172,7 +172,7 @@
 
 .card_title {
   padding: 5px 10px;
-  font-weight: var(--font-weight-title);
+  font-variation-settings: "wgth" var(--font-weight-title);
   font-size: 18px;
   line-height: normal;
 }
