@@ -17,7 +17,7 @@
 .page {
   color: var(--accent-color);
   font-family: var(--main-font, sans-serif);
-  font-variation-settings: "wgth" var(--font-weight-text);
+  font-variation-settings: "wght" var(--font-weight-text);
   background-color: var(--bg-color);
   background-image: repeating-linear-gradient(
       var(--bg-gradient-1),
