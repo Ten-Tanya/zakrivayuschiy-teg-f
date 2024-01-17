@@ -19,8 +19,8 @@
   <body class="page">
     <header class="header">
       <div class="logo-group">
-        <h1 class="header-title">&lt;/HTML&gt;</h1>
-        <p class="header-content">закрывающий тег</p>
+        <a href="" class="header-title">&lt;/HTML&gt;</a>
+        <h1 class="header-content">закрывающий тег</h1>
       </div>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
@@ -92,7 +92,7 @@
             <div class="card_content">
               <div class="card_image_block">
                 <p class="card_image_label">&lt;/HTML&gt;</p>
-                <img class="card_image filter_1" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
+                <img class="card_image filter_invert" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
               </div>
               <div class="card_paragraph">
               <p class="card_paragraph_text">На первых этапах мы работали со страхами и сомнениями, 
@@ -128,7 +128,7 @@
             <div class="card_content">
               <div class="card_image_block">
                 <p class="card_image_label">&lt;/HTML&gt;</p>
-                <img class="card_image filter_2" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
+                <img class="card_image filter_hrotate" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
               </div>
               <div class="card_paragraph">
               <p class="card_paragraph_text">Первый проект — позади! Но это всё ещё самое начало пути.
@@ -163,7 +163,7 @@
             <div class="card_content">
               <div class="card_image_block">
                 <p class="card_image_label">&lt;/HTML&gt;</p>
-                <img class="card_image filter_3" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
+                <img class="card_image filter_sat-con" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
               </div>
               <div class="card_paragraph">
               <p class="card_paragraph_text">На этом этапе вы уже достаточно разбирались в основах вёрстки, чтобы понять, как много ещё впереди.
@@ -198,7 +198,7 @@
             <div class="card_content">
               <div class="card_image_block">
                 <p class="card_image_label">&lt;/HTML&gt;</p>
-                <img class="card_image filter_4" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
+                <img class="card_image filter_hue-inv-con" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
               </div>
               <div class="card_paragraph">
               <p class="card_paragraph_text">Всё это время вы были не одиноки (хотя, возможно, иногда и
@@ -234,7 +234,7 @@
             <div class="card_content">
               <div class="card_image_block">
                 <p class="card_image_label">&lt;/HTML&gt;</p>
-                <img class="card_image filter_5" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
+                <img class="card_image filter_blur" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
               </div>
               <div class="card_paragraph">
               <p class="card_paragraph_text">На этом курсе вы постоянно решали разные задачи.
@@ -269,7 +269,7 @@
             <div class="card_content">
               <div class="card_image_block">
                 <p class="card_image_label">&lt;/HTML&gt;</p>
-                <img class="card_image filter_6" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
+                <img class="card_image filter_gscale" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
               </div>
               <div class="card_paragraph">
               <p class="card_paragraph_text">Во время учёбы часто возникает чувство, когда не знаешь,
@@ -305,7 +305,7 @@
             <div class="card_content">
               <div class="card_image_block">
                 <p class="card_image_label">&lt;/HTML&gt;</p>
-                <img class="card_image filter_7" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
+                <img class="card_image filter_opacity" src="./images/image-2.png" alt="рисунок авто" loading="lazy"/>
               </div>
               <div class="card_paragraph">
               <p class="card_paragraph_text">Сейчас вы уже очень много знаете о вёрстке. Но это только начало.
@@ -313,8 +313,8 @@
                   не заканчивается. Вёрстка — это целый мир. И этот мир постоянно меняется. Познать его полностью не получится,
                    но это тот случай, когда важен сам процесс познания. Ведь часто путь — и есть результат.
               </p>
-              <p class="card_paragraph_text">Место для ваших воспоминаний 
-                о начале обучения.
+              <p class="card_paragraph_text">Место, чтобы остановиться, подумать и написать,
+                 что вы чувствуете в этой точке пути.
               </p>
               </div>
               <div class="card_button_block">
@@ -336,15 +336,15 @@
           </article>
         </li>
       </ul>
+      <section class="footer">
+        <button type="button" class="button save_button" onclick="window['dialog-id'].showModal();" aria-controls="dialog-id">
+          <svg class="floppy_footer" viewBox="0 0 39 39">
+            <use href="../svg/floppy.svg#floppy" />
+          </svg>
+          <span class="button__text">Сохранить на&nbsp;память</span>
+        </button>
+      </section>  
     </main>
-    <footer class="footer">
-      <button type="button" class="button save_button" onclick="window['dialog-id'].showModal();" aria-controls="dialog-id">
-        <svg class="floppy_footer" viewBox="0 0 39 39">
-          <use href="../svg/floppy.svg#floppy" />
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-    </footer>
     <dialog id="dialog-id" class="save_dialog">
       <div class="dialog_content">
         <svg class="floppy_dialog" viewBox="0 0 39 39">
