@@ -169,10 +169,9 @@
 /* стили для MAIN */
 
 .content {
-  max-width: clamp(371px, 100vw, 696px);
+  max-width: clamp(371px, 100vw, 700px);
   /*width: min(100%, 696px);*/
-  /*background-color: var(--bg-color);
-  outline: 2px solid var(--accent-color);*/
+  /*background-color: var(--bg-color);*/
   margin: 0 auto;
 }
 
@@ -387,6 +386,8 @@
   padding: 0;
   background-color: transparent;
   transition: color 0.3s ease;
+  display: grid;
+  place-content: center center;
 }
 
 .card__icon-button:focus {
@@ -397,35 +398,8 @@
   border: 2px solid var(--accent-color);
 }
 
-.sparks {
-  opacity: 0;
-}
-
-.card__icon-button:hover .main-body {
-  fill: var(--accent-color);
-  transition: fill 0.3s 0.05s linear;
-}
-
-.card__icon-button:active .main-body {
-  fill: var(--sparks-color);
-  transition: fill 0.3s 0.05s linear;
-}
-
-.main-body {
-  transition: fill 0.3s linear;
-}
-
-.card__icon-button:hover .core {
-  fill: var(--accent-color);
-  transition: fill 0.3s linear;
-}
-.card__icon-button:active .core {
-  fill: var(--sparks-color);
-  transition: fill 0.3s linear;
-}
-
-.core {
-  transition: fill 0.3s 0.05s linear;
+.card__icon-button:hover {
+  cursor: pointer;
 }
 
 /* FOOTER - название секции как в макете */
